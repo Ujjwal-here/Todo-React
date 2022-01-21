@@ -1,0 +1,24 @@
+.todo {
+  margin: 30px 10px 0px 60px;
+  background-color: white;
+  height: 200px;
+  width: 300px;
+  text-align: left;
+  padding: 10px 10px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+p {
+  color: #b4b4b4;
+  font-size: 13px;
+}
+.row {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20%;
+  grid-column-gap: 30px;
+}
+
+.align{
+    display: flex;
+    justify-content: space-between;
+}
