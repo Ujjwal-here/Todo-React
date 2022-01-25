@@ -2,7 +2,7 @@ import todos from "../todos";
 import React from "react";
 import "./TodoList.css";
 import { FaTrash } from "react-icons/fa";
-import { Card, Button, Row, Col, Container } from "react-bootstrap";
+import { Card,Row, Col} from "react-bootstrap";
 import todof from "../todo.jpg"
 
 const TodoList = () => {
@@ -18,7 +18,7 @@ const TodoList = () => {
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </Card.Text>
-                <FaTrash />
+                <FaTrash color="red" cursor="pointer"/>
               </Card.Body>
             </Card>
           </Col>
